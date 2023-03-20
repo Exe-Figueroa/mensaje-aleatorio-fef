@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository":{
+    "type": "GIT",
+    "url": "git+https://github.com/Exe-Figueroa/mensaje-aleatorio-fef.git"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Facundo Exequiel Figueroa <facundofigueroa789@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "mensaje-aleatorio-fef": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
